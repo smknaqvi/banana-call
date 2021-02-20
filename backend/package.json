@@ -1,0 +1,19 @@
+{
+  "name": "microblog",
+  "version": "1.0.0",
+  "description": "cscc09 lab4",
+  "main": "app.js",
+  "scripts": {
+    "run start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Kazim Naqvi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

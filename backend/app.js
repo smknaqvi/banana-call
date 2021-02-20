@@ -2,6 +2,11 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const tenser = require("@tensorflow/tfjs-node");
+const canvas = require("canvas");
+const faceapi = require("face-api.js");
+const { Canvas, Image, ImageData } = canvas;
+faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

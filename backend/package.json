@@ -4,13 +4,14 @@
   "description": "cscc09 lab4",
   "main": "app.js",
   "scripts": {
-    "run start": "nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Syed Kazim Naqvi",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {

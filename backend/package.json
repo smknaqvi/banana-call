@@ -10,12 +10,15 @@
   "author": "Syed Kazim Naqvi",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^2.8.6",
+    "@tensorflow/tfjs": "^2.6.0",
+    "@tensorflow/tfjs-node": "^2.6.0",
+    "ba64": "^3.0.9",
     "body-parser": "^1.19.0",
     "canvas": "^2.6.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "face-api.js": "^0.22.2"
+    "face-api.js": "^0.22.2",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

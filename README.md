@@ -25,3 +25,10 @@ We will pitch this idea to Zoom and BBCollaborate because we think this applicat
 
 #CoackroachDB #FreeTShirt
 Credit to Twilio for the base application. Here is their Github https://github.com/twilio/twilio-video-app-react.
+
+# How to Deploy Locally
+
+1. Create `twilio-video-app-react\.env` and populate it with your twilio credentials similar to `.env.example`
+2. Run `npm run start` in `twilio-video-app-react`
+3. Run `npm run start` in `backend`
+4. Access the application at `http:localhost:3000`
